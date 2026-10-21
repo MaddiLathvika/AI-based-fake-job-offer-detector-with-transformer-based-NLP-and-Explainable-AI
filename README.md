@@ -1,25 +1,111 @@
-# Fakejobofferdetector
+# IntelliHire 2.0 — AI-Powered Fake Job Offer Detector
 
-hey nova i need to build aa website name: IntelliHire
-the main task for it is to determine whether this job posting is real or fake so it is basically ai based fake job offer detector based on the job description and the main feature is it uses transformer based nlp and explainable ai
+IntelliHire is a web-based application designed to help job seekers evaluate job postings and identify potential recruitment scams. It analyzes job descriptions, highlights suspicious phrases, and provides explanations to help users understand possible fraud indicators.
 
-This project was built with [Lovable](https://lovable.dev).
+## Features
 
-## Build with Lovable
+- **Job Posting Analysis:** Paste a job description to evaluate its credibility.
+- **Fraud Risk Classification:** Categorizes job postings as `Legitimate`, `Suspicious`, or `Fake`.
+- **Explainable AI:** Highlights important phrases that may indicate fraudulent or trustworthy hiring practices.
+- **Risk Explanations:** Provides explanations for flagged words and phrases.
+- **Sample Job Postings:** Allows users to try sample postings and explore the analysis.
+- **User-Friendly Interface:** Offers a simple interface for analyzing job descriptions.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/4b975091-0093-4d3e-b06b-d30e4344d03d).
+## How It Works
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+1. Paste a job description into the application.
+2. Submit the posting for analysis.
+3. IntelliHire evaluates the text using its configured analysis and classification logic.
+4. View the predicted category and relevant warning indicators.
+5. Review highlighted phrases and their explanations before making a decision.
 
-## Development
+## Technology Stack
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Update this section to match the technologies used in your actual implementation.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+- **Frontend:** React, TypeScript, Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **AI / NLP:** Transformer-based Natural Language Processing (NLP), if configured in the project
+- **Development Platform:** Lovable
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (a compatible version)
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Navigate to the project directory:
+
+```bash
+cd YOUR_PROJECT_DIRECTORY
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
+
+Open the local URL displayed in your terminal to access the application.
+
+## Example Use Case
+
+A job posting that requests an upfront registration fee, uses an unofficial email address, or promises unrealistic earnings may contain fraud indicators.
+
+IntelliHire helps users review these signals and understand why a posting may be classified as suspicious or fake.
+
+**Note:** Spelling mistakes or individual keywords alone do not prove that a job posting is fraudulent. Users should verify employers and vacancies through official sources.
+
+## Project Structure
+
+The exact structure depends on the generated codebase. A typical React application may contain:
+
+```text
+IntelliHire/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── ...
+├── package.json
+├── index.html
+├── vite.config.ts
+└── README.md
+```
+
+## Limitations
+
+- Classification accuracy depends on the model, data, and analysis logic used.
+- False positives and false negatives may occur.
+- Results should be treated as decision-support information, not definitive proof of fraud.
+- Users should independently verify job offers with the employer's official careers website.
+
+## Future Enhancements
+
+- Integrate a verified dataset of genuine and fraudulent job postings.
+- Improve classification accuracy through model evaluation and testing.
+- Add confidence scores and more detailed risk explanations.
+- Support batch analysis of multiple job postings.
+- Add links to official employer verification resources.
+
+---
+
+**If you find this project useful, consider starring the repository.**
