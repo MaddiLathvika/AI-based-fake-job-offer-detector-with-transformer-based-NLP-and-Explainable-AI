@@ -1,5 +1,7 @@
 # IntelliHire 2.0 — AI-Powered Fake Job Offer Detector
 
+**LIVE LINK** - https://fakejobofferdetector.lovable.app/
+
 IntelliHire is a web-based application designed to help job seekers evaluate job postings and identify potential recruitment scams. It analyzes job descriptions, highlights suspicious phrases, and provides explanations to help users understand possible fraud indicators.
 
 ## Features
